@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_report}",
+ "creation": "2024-12-27 21:54:46.851352",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name_report",
+  "kind_report",
+  "time_range"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_report",
+   "fieldtype": "Data",
+   "label": "Name Report"
+  },
+  {
+   "fieldname": "kind_report",
+   "fieldtype": "Select",
+   "label": "Kind Report",
+   "options": "Present\nMoney\nAcademc"
+  },
+  {
+   "fieldname": "time_range",
+   "fieldtype": "Datetime",
+   "label": "Time Range"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-29 00:32:24.076801",
+ "modified_by": "Administrator",
+ "module": "school module",
+ "name": "School Report",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
